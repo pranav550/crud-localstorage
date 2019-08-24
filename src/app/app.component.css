@@ -1,0 +1,76 @@
+body {
+    font-size: 15px;
+    color: #343d44;
+    font-family: 'segoe-ui', 'open-sans', tahoma, arial;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.row {
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+
+.title {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form-inline {
+    margin: 0 auto;
+    text-align: center;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0 5px;
+}
+
+thead th {
+    background-color: #007bff;
+    color: white;
+}
+
+tbody td {
+    background-color: #eeeeee;
+}
+
+tr td:first-child,
+tr th:first-child {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+tr td:last-child,
+tr th:last-child {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+td {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.icons button {
+    margin: 0px 5px 0px 5px;
+}
+
+.fa-circle-o,
+.fa-check-circle {
+    color: #007bff;
+}
+
+.empty {
+    border: 1px solid red;
+}
